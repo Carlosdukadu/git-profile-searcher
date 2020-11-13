@@ -1,0 +1,213 @@
+body,
+html {
+
+  /* margin: 0;
+  padding: 0; */
+  background-image: url('../img/contato-background3.jpg');
+  background-size: 100%;
+  background-image: fixed;
+  background-attachment: fixed;
+  /* background-position: bottom; */
+  /* overflow-x: hidden; */
+  width: auto;
+}
+.container {
+  margin-top: 162px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 10vh 0; */
+  /* transition-delay: 200s; */
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+  margin-top: 15px;
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 5px;
+  flex-grow: inherit;
+
+  padding: 10px;
+  background: #eee;
+  
+}
+
+.card-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #888;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+#divLabelInput{
+  margin-top: 0px;
+
+}
+
+#labelInput{
+    color: #888;
+    
+    /* display: none; */
+    visibility: hidden;
+    color: darkred;
+}
+
+/* #labelInput {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+} */
+
+/* #labelInput {
+	opacity: 1;
+	animation-name: fadeOutOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 3s;
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+} */
+
+#btnBuscar{
+    /* position: fixed; */
+    margin-top: 0px;
+}
+
+._urlDigitada {
+  /* align-items: relative; */
+  /* padding: relative; */
+  width: 30%;
+  margin-bottom: 5px;
+  background-color: rgb(232, 234, 255);
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 5px;
+}
+.msgErrorCampoUrlVazio {
+    /* align-items: relative; */
+    /* padding: relative; */
+    width: 30%;
+    margin-bottom: 5px;
+    background-color: rgb(232, 234, 255);
+    border: 2px solid rgb(255, 26, 26);
+    border-radius: 5px;
+  }
+._urlDigitada:hover{
+    opacity: 70%;
+}
+textarea:focus, input:focus, select:focus {
+    /* box-shadow: 0 0 0 0;
+    box-shadow: ;
+    border: 2px solid rgb(238, 0, 0);
+    outline: 0; */
+} 
+textarea:focus, input:focus, select:focus {
+    /* box-shadow: 0 0 0 0;
+    border: 2px solid rgb(255, 156, 156);
+    border: 40px solid rgb(197, 16, 16);
+    background-color: rgb(238, 0, 0);
+    outline: 2px solid rgb(238, 0, 0);   */
+} 
+
+.novoInput{
+  margin: auto;
+
+}
+
+h2{
+    color: rgb(88, 88, 88);
+    font-size: 180%;
+}
+p, h3{
+    font-size: x-large;
+    margin: auto;
+}
+
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: transparent;
+    -webkit-border-radius: 6px;
+}
+
+
+
+
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid rgb(207, 0, 0);
+    width: 30%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #imgFotoPerfil{
+    width: 54%;
+    /* align-self: center; */
+  }
+
+  .divImgPerfil{
+    width: 398px;
+    margin-right: -182px;
+    margin-left: 20px;
+    align-self: center;
+
+  }
+  
+
+  #btnVerPerfil{
+    margin-top: 9PX;
+  }
+
+  #title{
+    font-family: fantasy;
+    color: #202020a4;
+  }
